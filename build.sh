@@ -7,7 +7,7 @@ yellow='\033[0;33m'
 white='\033[0m'
 
 # ================= PATH =================
-DEFCONFIG=vendor/rahmatmi8937_defconfig
+DEFCONFIG=rahmatmsm8937_defconfig
 ROOTDIR=$(pwd)
 OUTDIR="$ROOTDIR/out/arch/arm64/boot"
 ANYKERNEL_DIR="$ROOTDIR/AnyKernel"
