@@ -27,8 +27,8 @@ ccflags-y += -I$(objtree)/security/selinux -include $(srctree)/include/uapi/asm-
 
 obj-$(CONFIG_KSU) += kernelsu.o
 
-KSU_VERSION := 32940
-KSU_VERSION_TAG := v3.0.1
+KSU_VERSION := 32996
+KSU_VERSION_TAG := v3.0.1-legacy
 
 LPATH := /usr/bin/env PATH="$$PATH":/usr/bin:/usr/local/bin
 MDIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
